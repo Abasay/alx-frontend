@@ -1,5 +1,5 @@
 html {
-  overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 body {
