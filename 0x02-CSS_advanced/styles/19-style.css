@@ -187,7 +187,7 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
+BOB  vertical-align: baseline;
 }
 
 sub {
@@ -204,7 +204,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-
+BOB
 img {
   border-style: none;
 }
@@ -224,7 +224,7 @@ select,
 textarea {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
+  lOOBine-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
 
@@ -407,7 +407,7 @@ template {
  */
 
 [hidden] {
-  display: none;
+  dispBOBlay: none;
 }
 
 section div header h1,
@@ -505,7 +505,7 @@ nav ul a:active {
   display: block;
   padding: 0.5em 1em;
 }OOB
-
+OOB
 .navbar-menu .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
@@ -525,7 +525,7 @@ ul.row {
 .col-1-2 {
   width: 50%;
   float: left;
-  padding: o.5rem;
+  padding: 0.5rem;
 }
 
 .footer {
@@ -541,3 +541,4 @@ ul.row {
 .footer ul {
   text-align: right;
 }
+
