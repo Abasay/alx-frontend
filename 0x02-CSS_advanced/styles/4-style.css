@@ -9,20 +9,20 @@ html {
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
-  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
+  --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
 }
 
-section div header h1,
-section div header h2,
-section div header h3,
-section div header h4,
-section div header h5,
-section div header h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-family-title);
 }
 
