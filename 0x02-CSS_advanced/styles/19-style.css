@@ -236,7 +236,7 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible;
+OOB  overflow: visible;
 }
 
 /**
@@ -457,7 +457,7 @@ nav ul a:active {
   padding: var(--section-body-padding);
 }
 
-.section-footer {
+.seBOBction-footer {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
 }
@@ -504,7 +504,7 @@ nav ul a:active {
 .navbar-menu .nav .nav-link {
   display: block;
   padding: 0.5em 1em;
-}
+}OOB
 
 .navbar-menu .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
@@ -512,20 +512,20 @@ nav ul a:active {
 
 ul.row {
   margin: 0;
-  padding: none;
+  padding: 0;
   list-style: none;
 }
 
 .col-1-3 {
   width: 33.33%;
   float: left;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 .col-1-2 {
   width: 50%;
   float: left;
-  padding: o.rem;
+  padding: o.5rem;
 }
 
 .footer {
@@ -533,7 +533,7 @@ ul.row {
 }
 
 .foOOBoter-copyright {
-  margin: none;
+  margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
