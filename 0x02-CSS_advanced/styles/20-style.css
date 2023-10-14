@@ -514,10 +514,24 @@ nav ul a:active {
   margin: 0;
   padding: none;
   list-style: none;
+}
+.row {
   /* css rule to create a new row after each instance of the row class */
   clear: both; /* Clear both left and right floating elements */
   display: table;
   content: '';
+}
+
+.col-1-3 {
+  width: 33.33%;
+  float: left;
+  padding: 0.5rem;
+}
+
+.col-1-2 {
+  width: 50%;
+  float: left;
+  padding: o.5rem;
 }
 
 [class^='col-'] {
@@ -530,6 +544,9 @@ nav ul a:active {
 .col-1-2 {
   float: none;
   padding: 0; /* Reset padding for specific classes */
+}
+
+[data-section-theme='dark'] {
 }
 
 .footer {
