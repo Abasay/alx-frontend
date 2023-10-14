@@ -42,20 +42,20 @@ section div header h6 {
   font-weight: var(--font-weight-bold);
 }
 
-nav ul a {
+a:link {
   color: #161616;
   text-decoration: none;
 }
 
-nav ul a:visited {
+a:visited {
   font-style: italic;
 }
 
-nav ul a:hover {
+a:hover {
   text-decoration: underline;
 }
 
-nav ul a:active {
+a:active {
   background-color: var(--color-light-grey);
 }
 .visually-hidden {
