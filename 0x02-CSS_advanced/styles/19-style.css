@@ -265,7 +265,7 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 
-button::-moz-focus-inner,
+BOBbutton::-moz-focus-inner,
 [type='button']::-moz-focus-inner,
 [type='reset']::-moz-focus-inner,
 [type='submit']::-moz-focus-inner {
@@ -318,7 +318,7 @@ progress {
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
- */
+ */OOB
 
 textarea {
   overflow: auto;
@@ -342,7 +342,7 @@ textarea {
 [type='number']::-webkit-inner-spin-button,
 [type='number']::-webkit-outer-spin-button {
   height: auto;
-}
+}OOB
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -374,7 +374,7 @@ textarea {
 
 /* Interactive
    ========================================================================== */
-
+BOB
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
@@ -490,7 +490,7 @@ nav ul a:active {
   padding: 0;
   list-style: none;
   text-align: center;
-}
+}BOB
 
 .navbar-menu .nav .nav-item {
   font-family: var(--nav-item-font-family);
@@ -519,13 +519,13 @@ ul.row {
 .col-1-3 {
   width: 33.33%;
   float: left;
-  padding: 0.5rem;
+  padding: 0.5em;
 }
 
 .col-1-2 {
   width: 50%;
   float: left;
-  padding: 0.5rem;
+  padding: 0.5em;
 }
 
 .footer {
