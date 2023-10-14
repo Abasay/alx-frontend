@@ -187,7 +187,7 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-BOB  vertical-align: baseline;
+  vertical-align: baseline;
 }
 
 sub {
@@ -204,7 +204,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-BOB
+
 img {
   border-style: none;
 }
@@ -236,7 +236,7 @@ textarea {
 button,
 input {
   /* 1 */
-OOB  overflow: visible;
+  overflow: visible;
 }
 
 /**
@@ -250,7 +250,7 @@ select {
   text-transform: none;
 }
 
-OOB/**
+/**
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
@@ -265,14 +265,14 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 
-BOBbutton::-moz-focus-inner,
+button::-moz-focus-inner,
 [type='button']::-moz-focus-inner,
 [type='reset']::-moz-focus-inner,
 [type='submit']::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
-OOB
+
 /**
  * Restore the focus styles unset by the previous rule.
  */
@@ -318,7 +318,7 @@ progress {
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
- */OOB
+ */
 
 textarea {
   overflow: auto;
@@ -342,7 +342,7 @@ textarea {
 [type='number']::-webkit-inner-spin-button,
 [type='number']::-webkit-outer-spin-button {
   height: auto;
-}OOB
+}
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -374,7 +374,7 @@ textarea {
 
 /* Interactive
    ========================================================================== */
-BOB
+
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
@@ -441,7 +441,7 @@ nav ul a:active {
 }
 
 .card-category {
-  color: var(--color-primary);
+  cBOBolor: var(--color-primary);
 }
 
 .section {
@@ -490,7 +490,7 @@ nav ul a:active {
   padding: 0;
   list-style: none;
   text-align: center;
-}BOB
+}
 
 .navbar-menu .nav .nav-item {
   font-family: var(--nav-item-font-family);
@@ -504,8 +504,8 @@ nav ul a:active {
 .navbar-menu .nav .nav-link {
   display: block;
   padding: 0.5em 1em;
-}OOB
-OOB
+}
+
 .navbar-menu .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
@@ -519,13 +519,13 @@ ul.row {
 .col-1-3 {
   width: 33.33%;
   float: left;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 .col-1-2 {
   width: 50%;
   float: left;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 .footer {
